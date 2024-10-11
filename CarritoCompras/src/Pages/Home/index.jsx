@@ -1,8 +1,10 @@
+import Layout from "../../Components/Layout"
 
 function Home() {
 
+  //el Layout creado permite contener la informacion que le enviemos dentro 
   return (
-    <div className="bg-slate-400">  Home!</div>
+    <Layout className="bg-slate-600">Home!</Layout>
   )
 }
 

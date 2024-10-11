@@ -1,8 +1,8 @@
-
+import Layout from "../../Components/Layout"
 function MyOrder() {
 
   return (
-    <div className="bg-red-600">  Hola My Order!</div>
+    <Layout>Hola My Order!</Layout>
   )
 }
 

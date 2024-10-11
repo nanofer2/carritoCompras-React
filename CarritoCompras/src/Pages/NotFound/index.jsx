@@ -1,8 +1,9 @@
+import Layout from "../../Components/Layout"
 
 function NotFound() {
 
   return (
-    <div className="bg-red-600">  UPS! Pagina No Encontrada!</div>
+    <Layout>UPS! Pagina No Encontrada!</Layout>
   )
 }
 
