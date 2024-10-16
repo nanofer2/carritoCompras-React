@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react"; //useEffect permite declarar los eventos de consumo (para hacer peticiones a un API)
 import Layout from "../../Components/Layout";
 import Card from "../../Components/Card";
+import ProductDetail from "../../Components/ProductDetail";
 
 function Home() {
   /*
@@ -37,6 +38,7 @@ function Home() {
           )*/
         }
       </div>
+      <ProductDetail/>
     </Layout>
   );
 }
